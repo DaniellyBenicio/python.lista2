@@ -3,7 +3,9 @@ Em seguida, retorne o valor da chave 'idade'.'''
 
 dic = {}
 
-for i in range(1,6):
+num = int(input('Informe a quantidade de chaves e valores que o dicionário terá: '))
+
+for i in range(num):
     chave = input('Informe a chave: ')
     valor = input('Informe o valor: ')
     dic[chave] = valor
