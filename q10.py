@@ -19,7 +19,7 @@ print(grafo)
 
 a, b = input('Qual aresta deseja remover do grafo? ').split()
 
-if a in grafo and b in grafo[a]:
+if a in grafo and b in grafo:
     grafo[a].remove(b)
     grafo[b].remove(a)
     print('Aresta removida do grafo!')
