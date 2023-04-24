@@ -7,7 +7,7 @@ nome3 = input('Digite o 3º nome: ')
 
 tup = (nome1, nome2, nome3)
 
-if 'Maria' in tup or 'maria' in tup:
+if 'Maria' in tup or 'maria' in tup or 'MARIA' in tup:
     print('Nome Maria presente na tupla!')
 else: 
     print('Nome Maria não está presente na tupla!')
