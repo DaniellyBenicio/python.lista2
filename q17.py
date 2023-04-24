@@ -7,9 +7,11 @@ nome3 = input('Digite o 3º nome: ')
 
 tup = (nome1, nome2, nome3)
 
-qnt = tup.count('Maria')
+qnt = 0
 
-if 'Maria' in tup:
-    print(f'O nome Maria está presente na tupla! Aparece {qnt} vezes!')
-else: 
-    print('Nome não está presente na tupla!')
+for i in range(len(tup)):
+    if tup[i].lower() == 'maria':
+        qnt = qnt + 1
+print(f'O nome Maria está presente na tupla! Aparece {qnt} vezes!')
+
+
