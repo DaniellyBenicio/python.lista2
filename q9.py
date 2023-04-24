@@ -7,9 +7,9 @@ for i in range(1,11):
     num = int(input(f'Informe {i}º número: '))
     conj.add(num)
 
-conj = conj.copy() 
+a = conj.copy() 
 
-for num in conj.copy():
+for num in a:
     if num % 2 == 0:
         conj.remove(num)
 
